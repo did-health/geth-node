@@ -5,4 +5,4 @@ RUN add-apt-repository ppa:ethereum/ethereum
 RUN apt update -y && apt install geth
 
 CMD bash
-RUN geth --lite
+RUN geth console
